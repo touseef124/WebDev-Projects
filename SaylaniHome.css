@@ -1,0 +1,315 @@
+    @font-face{
+    font-family: Merriweather;
+    src: url(Fonts/Merriweather-Regular.ttf);
+}
+@font-face{
+    font-family: OpenSans;
+    src:url(Fonts/OpenSans-Regular.ttf);
+}
+body{
+    background-color: #f0f0f0;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: royalblue;    
+}
+.one,.two,.three{
+    width: 400px;
+    flex-wrap: wrap; 
+}
+.one,.three{flex: 1;}
+.two{flex: 2;}
+.face,.twi,.insta,.you,.what{
+    cursor: pointer;
+    margin: 8px 5px 5px 5px;
+  }
+.para{
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+.donor,.donate,.result
+{
+    display: inline-block;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+  }
+.taskbar{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #f0f0f0;
+   }
+.logoimg{flex: 1;}
+.pages{flex: 3.5;}
+.saylanilogo{margin-top: 7px;}
+.home{
+    cursor: pointer;
+}
+li{
+    display: inline-flex;
+    cursor: pointer;
+    font-family: OpenSans;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-left: 5px;
+   padding: 5px 12px 5px 12px;
+}
+
+.Home,.About,.SaylaniServices,.FutureProjects,.Media,.News,.Donation{
+    display: inline-flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+li:hover{ 
+    background: royalblue;
+    color: #f0f0f0;
+    cursor: pointer;
+    }
+.Home:hover,.About:hover,.SaylaniServices:hover,.FutureProjects:hover,.Media:hover,.News:hover,.Donation:hover{color: white;
+cursor: pointer;}
+
+.mainimg{
+    margin-top: 15px;
+}
+.mark{
+    
+    display: inline-flex;
+    width: 95%;
+    background-color: #316DC3;
+    height: 30px;
+    padding-bottom: 17px;
+}
+.cotedate{
+    color: lime;
+}
+.cotepara{
+    font-family: Merriweather;
+    color: white;
+}
+.moredetail{
+    color: blue;
+}
+.cotedate,.cotepara,.moredetail{
+    font-size: 18px;
+    display: inline-block;
+   }
+.intro{
+    margin-top: 30px;
+   font-family: Merriweather;
+    display: inline-block;
+    border-collapse: collapse;
+    color: royalblue;
+}
+.duction{
+    margin-top: 30px;
+    font-family: Merriweather;
+    display: inline-block;
+    border-collapse: collapse;
+    color: green;
+}
+.underscore{
+    margin-top: 1px;
+    display: inline-block;
+    color: green;
+    font-size: 30px;
+   }
+.introductionlogo{
+    margin-top: 1px;
+    display: inline-flex;
+   }
+.paragraphs{
+    width: 70%;
+    height: 500px;
+    text-align: justify;
+    font-size: 18px;
+    }
+    .count{
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 15px;
+        background-color: royalblue;
+        }
+    .one1,.two2,.three3,.four4{
+        display: inline-block;
+        flex: 1;
+        height: 300px;
+        align-items: center;
+        background-color: royalblue;
+       }
+    .spoon{
+        margin-top: 40px;
+    }
+    .eatingpersons{
+        color: white;
+        font-family: Merriweather;
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    .dailydastarkhan,.monthly{
+        margin-top: 2px;
+        font-family: Merriweather;
+        display: inline-flex;
+        color: white;
+        font-weight: 30px;
+        padding-left: 10px;
+ 
+    }
+    .monthly{
+        margin-top: 2px;
+        color: lime;
+        font-family: Merriweather;
+        font-weight: 32px;
+    }
+    .services{
+        width: 95%;
+        height: 400px;
+      
+    }
+    .sadqah,.walfare,.medical,.dastarkhwan,.roplant,.education{
+        display: inline-block;
+        box-shadow: 5px gray;
+        background-color: white;
+        border-radius: 10px;
+        width: 360px;
+        height: 170px;
+       margin: 15px 15px;
+       box-shadow: 10px 10px 10px grey;
+    }
+    .sadqahimage,.walfareimage,.medicalimage,.dastarkhwanimage,.roplantimage,.educationimage{
+        display: inline-block;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .onlinesadqah,.walfare2,.medical2,.dastarkhwan2,.roplant2,.education2{
+        font-family: Merriweather;
+        font-size: 23px;
+        color: royalblue;
+    }
+    .mission{
+        display: inline-flex;
+        width: 100%;
+        margin-top: 25px;
+        height: 400px;
+        background-color: white;
+        box-shadow: -5px 5px 10px grey;
+        border-radius: 10px;
+    }
+.projects{
+        flex: 2;
+        margin-left: 1px;
+        border-radius: 10px;
+        background-color: white;
+}
+.missionsandupcomingprojects,.upcomingevents
+    {
+        font-family: Merriweather;
+        color: royalblue;
+        text-align: left;
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+    .hepatitis,.housing-society,.it-litracy,.tharparkar{
+        display: inline-block;
+        width: 45%;/* yahan */
+        height: 80px;
+        margin: 10px 15px 10px 15px;
+        border-radius: 10px;
+        background-color: #f0f0f0;   
+        box-shadow: 5px 5px 10px grey; 
+    }
+    .hepatitisimage,.housing-societyimage,.it-litracyimage,.tharparkarimage{
+        display: inline-block;
+        position: relative;
+        top: 15px;
+        left: 10px;
+        }
+    .hepatitispara,.housing-societypara,.it-litracypara,.tharparkarpara{
+        display: inline-block;
+        font-family: Merriweather;
+        color: royalblue;
+        font-weight: bold;
+        padding-left: 25px;
+        padding-right: 110px;
+    }
+    
+.tauseef{
+    flex: 1;
+ } .upmoving{
+        width: 90%;
+        height: 250px;
+        line-height: 18px;
+        border: 2px solid royalblue;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 5px 5px 10px lightgray;
+       }
+       .gallery{
+           display: inline-flex;
+        width: 90%;
+        height: 180px;
+        }
+    
+       .hide{
+        visibility: hidden;
+        /* color: rgb(94, 128, 128); */
+    }    
+.contacts{
+    display: inline-flex;
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    background-color: 	darkslategray;
+}
+.numbers,.links,.social{
+    flex: 1;
+    padding: 20px;
+  }
+.socials{
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    
+}
+.contactpara{
+    font-family: sans-serif;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+}
+.phoneimage{
+    display: inline-block;
+ }
+ .usefulllink{
+     font-family: sans-serif;
+     color: white;
+     text-align: left;
+ }
+ .connect{
+     display: inline-block;
+     margin:10px;
+ }
+ .hide{
+     visibility: hidden;
+     /* color: rgb(94, 128, 128); */
+ }
+ .togotop{
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+ }
