@@ -1,6 +1,78 @@
-h1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
+
+@font-face{
+    font-family: OpenSans;
+    src: url(Fonts/OpenSans-Regular.ttf);
+    font-family: Merriweather;
+    src: url(Fonts/Merriweather-Regular.ttf);
+    font-family: Ubuntu;
+    src: url(Fonts/Ubuntu-Regular.ttf);
+    font-family: Playfair;
+    src: url(Fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    
+}
+*{
+    font-family: Playfair;
+}
+body{
+    background-color: black;
+}.main{
+    display: flex;
+    width: 80%;
+    height: 300px;
     background-color: darkslategrey;
     border-radius: 15px;
 }
+.name,.image{
+    flex: 2.5;
+}
+.contacts{
+    flex: 2;
+align-items: center;
+}
+.iam,.tauseef{
+    display: inline-flex;
+    font-size: 50px;
+    padding-top: 30px;
+}
+.iam{
+    color: white;
+    }
+.tauseef{
+    color: mediumseagreen;
+    }
+.text{
+    font-family: Ubuntu;
+    display: inline-flex;
+    color: #f0f0f0;
+    margin-top: 1px;
+    border: 2px solid mediumseagreen;
+    border-radius: 10px;
+    padding: 10px;
+}
+.discription{
+    margin-top: 80px;
+    font-family: Ubuntu;
+    display: inline-flex;
+    color: #f0f0f0;
+    border: 2px solid mediumseagreen;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.icon{
+    padding: 5px;
+}
+.profile{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.projecttable{
+    padding-top: 20px;
+    width: 80%;
+    height: 500px;
+    background-color: #f0f0f0;
+    border-radius: 15px;
+}
+.webdevprojects{
+    color: royalblue;
+    }
