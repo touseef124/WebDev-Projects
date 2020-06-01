@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    background-color: mediumseagreen;
+    flex-wrap: wrap;
+}
+.name,.discription,.image{
+    flex: 1;
+    height: 200px;
+    min-width: 300px;
+    border: 1px solid red;
+}
